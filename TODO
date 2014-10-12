@@ -1,0 +1,7 @@
+Make the filewatcher universally check for hidden files not just .git files.
+
+add async stuff
+
+better tests
+
+code cleanup

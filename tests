@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+// test single modules
+if (process.argv[2]){
+  var filename = process.argv[2];
+  require("./test/" + filename);
+  
+} else {
+  // import and run all tests
+  require("./test/tests_util");
+  require("./test/tests_apto");
+  console.log("\nTests Ok");
+  process.exit(0);
+}

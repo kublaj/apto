@@ -1,0 +1,5 @@
+{% for page in pages %}{% if page != "error.html" %}
+{{ page }}{% endif %}{% endfor %}
+
+{% for post in posts %}
+{{ post.path }}{% endfor %}

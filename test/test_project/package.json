@@ -1,0 +1,12 @@
+{
+  "name": "mysite",
+  "version": "0.1.0",
+  "dependencies": {
+    "apto": "",
+    "swig": "0.13.x",
+    "express": "3.x.x"
+  },
+  "engine": {
+    "node": ">=0.8"
+  }
+}

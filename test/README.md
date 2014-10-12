@@ -1,0 +1,1 @@
+Tests are inline in lib for now

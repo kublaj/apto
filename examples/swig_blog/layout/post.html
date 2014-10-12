@@ -1,0 +1,21 @@
+{% extends "layout/base.html" %}
+
+{% block content %} 
+  <a href="/{{ previous_post.path }}">
+    {{ previous_post.title }}
+  </a>
+  <a class="pull-right" href="/{{ next_post.path }}">
+    {{ next_post.title }}
+  </a>
+  <div class="clearfix"></div>
+  
+  <h1>
+    {% block title %}{% endblock %}
+  </h1>
+  <time>
+    {% block date %}{% endblock %}
+  </time>
+  <p>
+    {% block body %}{% endblock %}
+  </p>
+{% endblock %}
